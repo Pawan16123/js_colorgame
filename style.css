@@ -1,0 +1,160 @@
+body{
+	margin: 0;
+	color: white;
+	background: #232323;
+
+}
+
+#container{
+max-width:400px;
+margin: 0 auto;
+min-height:230px;
+background-color: cyan;
+border-radius: 20px;
+}
+/*banner*/
+h2{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+.banner{
+    margin: 0;
+	text-align: center;
+	background-color: coral;
+	transition: all 2s;
+}
+
+p{
+	
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+
+.prompt{
+	font-family: algerian;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30%;
+}
+
+.easy{
+		position: absolute;
+		left: 65%;
+		top: 30%;
+}
+
+.hard{
+	position: absolute;
+	left: 80%;
+	top: 30%;
+}
+
+
+/*nav*/
+nav{
+	background-color: #b425ed;
+
+		
+}
+ul{
+	margin-top: 0;
+	list-style: none;
+	font-size: 25px;
+	color: white;
+	height: 65px;
+	padding-left: 0;
+	padding-bottom: 10px;
+
+
+}
+
+
+/*li{
+	display: inline;
+	float: left;
+	min-width: 180px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	height: 65px;
+	transition: all 0.3s;
+	position: absolute;
+
+}*/
+
+li:hover{
+	background-color: #14444D;
+	color: white;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.square{
+	width:30%;
+	height: 100px;
+	margin: 1.66%;
+	float: left;
+	transition: all 0.5s;
+	border-radius: 30px;
+	
+}
+
+.difficulty{
+	background-color: palegreen;
+	width: max-content;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+ @media(max-width: 768px){
+
+
+.square,
+li,
+ul 
+{
+ 		float: none;
+ 		text-align: center;
+ 		width: 100%;
+ 		margin-left: 0;
+ 		padding-top: 15px;
+ 	}
+
+ 	#container{
+ 		max-width:300px;
+		margin: 0 auto;
+		min-height:230px;
+		background-color: cyan;
+		border-radius: 20px;
+		padding: 10px;
+
+
+ 	}
+
+ .prompt{
+ 	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 35%;
+ }
+
+.easy{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30%;
+
+}
+.hard{
+ 	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 35%;
+ }
+}
